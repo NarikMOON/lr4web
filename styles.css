@@ -3,7 +3,7 @@ body {
     background-color: #f1f1f1;
   }
 
-div.header {
+#header {
     border-radius: 4px;
     color: #000;
     font-size: 80px;
