@@ -1,8 +1,44 @@
+:root {
+    --maintextcolor: #000;
+    /* var(--maintextcolor)*/
+    --mainbodycolor: repeating-linear-gradient(#c9e2e2, #ddd7f3);
+    /*  var( --mainbodycolor)*/
+    --mainbutcolor: rgb(50, 79, 185);
+    /*  var( --mainbutcolor)*/
+    --mainbuthovercolor: rgb(64, 172, 205);
+    /*  var( --mainbuthovercolor)*/
+    --mainbordercolor: rgb(64, 172, 205);
+    /*  var( --mainbordercolor)*/
+
+    --darktextcolor: #fff;
+    /* var(--darktextcolor) не расставлен*/
+    --darkbodycolor: repeating-linear-gradient(#0b2525, #2f2e32);
+    /*  var( --darkbodycolor)*/
+    --darkbutcolor: rgb(33, 38, 57);
+    /*  var( --darkbutcolor)*/
+    --darkbuthovercolor: rgb(10, 17, 44);
+    /*  var( --darkbuthovercolor)*/
+    --darkbordercolor: rgb(13, 21, 49);
+    /*  var( --darkbordercolor)*/
+
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
   }
-  
+
+div.header {
+    border-radius: 4px;
+    color: var(--maintextcolor);
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: inherit;
+    background: linear-gradient(to bottom left, var(--mainbuthovercolor), var(--mainbutcolor));
+    text-align: center;
+    margin: 0 0 7px 0;
+}
+
   h1 {
     color: #333;
   }
